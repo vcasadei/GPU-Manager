@@ -1,0 +1,10 @@
+# Python / UV Virtual Environments
+.venv/
+__pycache__/
+
+# Data files (Generated on the server)
+gpu_log.csv
+*.csv
+
+# OS Junk
+.DS_Store
