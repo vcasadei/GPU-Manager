@@ -41,9 +41,8 @@ This project uses `uv` for dependency management.
 # Install uv if you don't have it
 curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
 
-# Initialize and install dependencies
-uv init
-uv add streamlit pandas gpustat
+# Install dependencies from the lockfile
+uv sync
 ```
 
 ### 3. Configure Permissions (Crucial for Restart Button)
